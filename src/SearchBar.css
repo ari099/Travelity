@@ -1,0 +1,36 @@
+.SearchBar-form {
+    display: grid;
+    background: white;
+    box-shadow: 0px 0px 5px 0px gray;
+    width: 70%;
+    margin: 0 auto;
+    grid-template-columns: 1fr 300px 150px;
+    font-size: 15pt;
+    font-family: 'Segoe UI';
+}
+
+.SearchBar-component {
+    padding: 20px;
+    margin: none;
+    border: none;
+}
+
+.SearchBar-search {
+    background: white;
+    color: #777;
+    width: 100%;
+}
+
+.SearchBar-city-select {
+    background: white;
+    color: #777;
+}
+.SearchBar-city-select option {
+    margin: 10px;
+}
+
+.SearchBar-search-button {
+    background: rgb(27, 159, 224);
+    color: white;
+    cursor: pointer;
+}
